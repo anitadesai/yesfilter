@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hack Harrassment Plugin",
+  "description": "This extension will analyze user data to stop online harrassment",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "extension-logo.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
